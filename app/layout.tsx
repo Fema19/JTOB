@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "JEMBAR — Upcycled Denim Tote Bag",
-  description: "A digital story about transforming unused jeans into a reusable tote bag.",
+  title: "JEMBAR — KainKita Tote Bag",
+  description: "Website KainKita: tote bag dari kain sisa dengan konsep digital dan cerita yang terhubung.",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="id">
       <body>{children}</body>
     </html>
   );

@@ -23,6 +23,7 @@ import dina from "../assets/team/dina-anggota.jpg";
 import dinar from "../assets/team/dinar-anggota.jpg";
 import fachry from "../assets/team/fachry-anggota.jpg";
 import fardhan from "../assets/team/Fardhan-Ketua.jpg";
+import firly from "../assets/team/IMG-20260918-WA0005.jpg";
 import ghofur from "../assets/team/ghofur-anggota.jpg";
 import habi from "../assets/team/habi-anggota.jpg";
 import ihwan from "../assets/team/ihwan-anggota.jpg";
@@ -97,7 +98,7 @@ const teamMembers = [
   { name: "Wandi", role: "Anggota", image: wandi },
   { name: "Zalfa", role: "Anggota", image: zalfa },
   { name: "Zulian", role: "Anggota", image: zulian },
-  { name: "Firly", role: "Anggota", image: null, placeholder: "Guest" },
+  { name: "Firly", role: "Anggota", image: firly },
   { name: "Fabian", role: "Anggota", image: null, placeholder: "Guest" },
 ];
 

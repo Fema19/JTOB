@@ -416,22 +416,22 @@ export default function Home() {
         </div>
 
         <div className="team-grid">
-          {teamMembers.map(({ name, role, image, placeholder }) => (
-            <article key={name} className="team-card">
-              <div className="team-photo">
-                {image ? (
-                  <Image src={image} alt={`Foto ${name}`} fill sizes="(max-width: 700px) 100vw, 18vw" />
-                ) : (
-                  <div className="team-placeholder" aria-label={`${name} guest placeholder`}>
-                    <span>{placeholder}</span>
-                  </div>
-                )}
-              </div>
-              <h3>{name}</h3>
-              <p>{role}</p>
-            </article>
-          ))}
-        </div>
+  {teamMembers.map(({ name, role, image }) => (
+    <article key={name} className="team-card">
+      <div className="team-photo">
+        <Image
+          src={image}
+          alt={`Foto ${name}`}
+          fill
+          sizes="(max-width: 700px) 50vw, (max-width: 980px) 33vw, 25vw"
+        />
+      </div>
+
+      <h3>{name}</h3>
+      <p>{role}</p>
+    </article>
+  ))}
+</div>
       </section>
 
       <section className="section closing-section reveal">

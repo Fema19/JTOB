@@ -36,6 +36,7 @@ import rizki from "../assets/team/rizki-anggota.jpg";
 import wandi from "../assets/team/wandi-anggota.jpg";
 import zalfa from "../assets/team/zalfa-anggota.jpg";
 import zulian from "../assets/team/zulian-anggota.png";
+import fabian from "../assets/team/assets/IMG-20260918-WA0006.jpg";
 
 const navItems = [
   { id: "tentang", label: "Tentang" },
@@ -99,7 +100,7 @@ const teamMembers = [
   { name: "Zalfa", role: "Anggota", image: zalfa },
   { name: "Zulian", role: "Anggota", image: zulian },
   { name: "Firly", role: "Anggota", image: firly },
-  { name: "Fabian", role: "Anggota", image: null, placeholder: "Guest" },
+  { name: "Fabian", role: "Anggota", image: fabian },
 ];
 
 const productGallery = [
